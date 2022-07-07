@@ -3,169 +3,42 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<html class="light-mode">
+<html>
 	
 	<head>
 		<title>Jakub Swiadek | Product Designer</title>
 		
-		<link rel="stylesheet" href="style.css">
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.2/lottie.min.js"></script>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			body {
+				padding: 5vw;
+				background: #111;
+				color: #666;
+				font-family: ui-monospace, ".AppleSystemUIFontMonospaced", monospace;
+				line-height: 1.5em;
+				font-size: 16px;
+			}
+			
+			a {
+				color: #666;
+			}
+			
+			p {
+				margin-bottom: 1em;
+			}
+		</style>
 	</head>
 	
 	<body>
-		
-		<header>
-			<h1>Jakub Swiadek</h1>
-			<p>Product Designer</p>
-			
-			<ul>
-				<li><a href="#epic">Epic Games</a></li>
-				<li><a href="#houseparty">Houseparty</a></li>
-				<li><a href="#slug">Slug Bicycles</a></li>
-			</ul>
-			
-		</header>
-		
-		<!-- About -->
-				
-		<section id="about">
-						
-				<article>
-					<h2>Hi! My name is Jakub. I'm a multi-disciplinary designer with strong mobile, video and social experience.</h2>
-					<p>Most of my experience revolves around mobile interface design, specifically in social networking and live video.</p>
-					<p>Some of my favorite parts of design work include using animations and transitions to create behavior patterns that locate and guide users through experiences. I also love the meticulous work of designing icons, and creating robust, thoughtful and portable design systems.</p>
-					<p>For the most part, I'm a generalist kind of designer. I think the breadth of experience and understanding of how different pieces of work come together is valuable in creating cohesive experiences.</p>
-					<p>To that end, I can draw illustrations and iconography in Illustrator, design interfaces and systems in Figma, craft animations and transitions in After Effects or Flinto, and code front end layout and animations in CSS, Javascript, or Swift.</p>
-					<a href="mailto:jakub@swiadek.org">Let's talk!</a>
-				</article>
-					
-		</section>
-		
-		<!-- Epic Games -->
-		
-		<section id="epic">
-		
-			<div class="half-block" id="epic-card">
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110.54 128">
-					<path fill="#2f2d2e" d="M100.51,0H10.04C2.71,0,0,2.7,0,10.02V98.35c0,.83,.03,1.6,.11,2.31,.17,1.6,.2,3.15,1.69,4.91,.15,.17,1.67,1.3,1.67,1.3,.82,.4,1.38,.69,2.3,1.07l44.55,18.62c2.31,1.06,3.28,1.47,4.96,1.44h.01c1.68,.03,2.65-.38,4.96-1.44l44.55-18.62c.92-.37,1.48-.67,2.3-1.07,0,0,1.52-1.13,1.67-1.3,1.49-1.76,1.52-3.31,1.69-4.91,.07-.71,.11-1.48,.11-2.31V10.02c0-7.32-2.71-10.02-10.04-10.02Z"/>
-					<path fill="#fff" d="M86.89,45.97v11.08c0,1.96-.91,2.87-2.8,2.87h-1.4c-1.96,0-2.87-.91-2.87-2.87V26.05c0-1.96,.91-2.87,2.87-2.87h1.26c1.89,0,2.8,.91,2.8,2.87v9.61h7.34v-10.03c0-6.1-2.94-9.04-9.02-9.04h-3.64c-6.08,0-9.09,3.01-9.09,9.11v31.69c0,6.1,3.01,9.11,9.09,9.11h3.71c6.08,0,9.09-3.01,9.09-9.11v-11.43h-7.34Zm-54.29-1.47h-8.81v14.79h9.3v6.8H16.31V17.01h16.64v6.8h-9.16v13.88h8.81v6.8Zm61.83,44.52l.02-.2,.02-.22v-.49l-.02-.22-.02-.2-.04-.2-.04-.2-.04-.18-.06-.18-.06-.18-.08-.16-.1-.18-.1-.16-.12-.18-.12-.16-.14-.14-.14-.16-.16-.14-.16-.14-.16-.1-.16-.12-.16-.1-.18-.1-.18-.1-.2-.1-.2-.08-.2-.1-.22-.08-.18-.06-.18-.06-.2-.06-.18-.06-.2-.06-.2-.06-.2-.04-.22-.06-.2-.06-.22-.04-.22-.06-.22-.06-.22-.06-.2-.04-.18-.06-.18-.04-.16-.06-.16-.04-.24-.08-.22-.08-.2-.08-.16-.1-.18-.1-.14-.14-.08-.12-.1-.22-.02-.26v-.04l.02-.2,.08-.18,.12-.18,.18-.16,.14-.08,.16-.08,.18-.04,.2-.04,.22-.04h.45l.18,.02,.2,.02,.2,.02,.2,.04,.2,.04,.2,.04,.2,.06,.2,.06,.22,.06,.16,.08,.18,.06,.16,.08,.18,.08,.16,.08,.18,.08,.16,.1,.18,.08,.16,.12,.16,.1,.18,.1,.16,.12,.12-.16,.1-.16,.12-.16,.12-.16,.12-.18,.1-.16,.12-.16,.12-.16,.1-.16,.12-.16,.12-.16,.1-.16,.12-.18,.12-.16,.12-.16,.1-.16,.12-.16-.16-.12-.16-.12-.16-.12-.16-.1-.18-.12-.16-.1-.18-.1-.18-.1-.16-.08-.18-.1-.2-.08-.18-.08-.18-.08-.18-.06-.2-.08-.18-.04-.18-.06-.2-.06-.18-.04-.2-.04-.2-.04-.18-.04-.2-.04-.22-.02-.2-.04-.22-.02h-.2l-.22-.02-.22-.02h-.87l-.2,.02-.2,.02-.2,.02-.2,.02-.18,.04-.2,.04-.18,.04-.18,.04-.16,.04-.18,.06-.2,.08-.2,.06-.18,.08-.18,.1-.18,.08-.18,.1-.16,.1-.16,.12-.16,.12-.14,.1-.16,.14-.14,.16-.14,.14-.14,.16-.12,.16-.12,.16-.1,.18-.1,.18-.08,.18-.08,.18-.08,.18-.04,.18-.06,.18-.04,.18-.04,.18-.02,.2-.02,.18-.02,.2v.47l.02,.22,.02,.2,.02,.2,.04,.18,.04,.2,.06,.16,.06,.18,.06,.16,.08,.14,.1,.18,.1,.16,.1,.14,.12,.14,.12,.14,.14,.14,.14,.14,.14,.12,.16,.1,.16,.12,.18,.1,.16,.1,.2,.1,.18,.1,.2,.08,.2,.08,.2,.08,.22,.08,.18,.06,.18,.06,.18,.06,.2,.04,.18,.06,.2,.06,.2,.04,.2,.06,.2,.04,.22,.06,.2,.04,.22,.06,.2,.04,.2,.06,.18,.04,.18,.06,.16,.04,.14,.04,.24,.1,.2,.08,.18,.08,.16,.08,.16,.12,.14,.12,.1,.14,.08,.2,.02,.24v.04l-.02,.2-.06,.18-.08,.16-.12,.14-.16,.12-.14,.08-.16,.06-.18,.04-.18,.04-.2,.04-.22,.02h-.45l-.22-.02h-.2l-.2-.04-.22-.02-.2-.04-.2-.04-.2-.04-.18-.06-.2-.06-.2-.06-.18-.08-.18-.06-.18-.08-.18-.08-.18-.08-.16-.1-.18-.08-.16-.1-.18-.12-.16-.1-.18-.12-.16-.12-.18-.12-.16-.12-.12,.16-.14,.14-.12,.16-.14,.16-.12,.14-.12,.16-.14,.16-.12,.14-.14,.16-.12,.14-.14,.16-.12,.16-.12,.14-.14,.16-.12,.16-.14,.14-.12,.16,.16,.14,.14,.12,.16,.12,.16,.12,.16,.12,.16,.12,.16,.1,.16,.1,.18,.1,.16,.1,.18,.1,.18,.08,.18,.1,.18,.08,.18,.08,.2,.08,.18,.06,.2,.06,.18,.08,.2,.06,.2,.06,.18,.04,.2,.06,.2,.04,.2,.04,.2,.04,.2,.04,.2,.02,.2,.04,.22,.02,.2,.02,.2,.02h.22l.2,.02h.85l.2-.02,.22-.02,.2-.02,.18-.02,.2-.02,.2-.04,.18-.04,.18-.04,.2-.04,.18-.06,.2-.06,.2-.06,.2-.08,.2-.08,.18-.1,.18-.08,.18-.1,.16-.12,.16-.1,.16-.12,.14-.12,.16-.14,.12-.12,.14-.14,.12-.14,.1-.16,.12-.16,.1-.16,.1-.16,.08-.18,.08-.16,.08-.18,.06-.2,.04-.18,.06-.2,.04-.2,.02-.22Zm-14.44,3.87h.41v-3.36h-7.97v-2.53h7.07v-3.16h-7.07v-2.42h7.87v-3.36h-11.75v14.83h11.44Zm-14.85,0h.41v-14.83h-4.17l-.1,.16-.1,.18-.12,.16-.1,.18-.1,.16-.1,.18-.12,.16-.1,.18-.1,.16-.1,.16-.12,.18-.1,.16-.1,.18-.1,.16-.12,.18-.1,.16-.1,.16-.1,.18-.1,.16-.12,.18-.1,.16-.1,.18-.1,.16-.12,.18-.1,.16-.1,.16-.1,.18-.12,.16-.1,.18-.1,.16-.1,.18-.12,.16-.1,.18-.1,.16-.1-.16-.1-.18-.12-.16-.1-.18-.1-.16-.1-.18-.1-.16-.12-.18-.1-.16-.1-.16-.1-.18-.1-.16-.12-.18-.1-.16-.1-.18-.1-.16-.1-.18-.12-.16-.1-.16-.1-.18-.1-.16-.12-.18-.1-.16-.1-.18-.1-.16-.1-.16-.12-.18-.1-.16-.1-.18-.1-.16-.1-.18-.12-.16-.1-.18-.1-.16h-4.17v14.83h3.86v-8.73l.12,.16,.1,.18,.12,.16,.1,.18,.12,.16,.1,.18,.12,.16,.1,.18,.12,.16,.1,.18,.12,.16,.1,.18,.12,.16,.1,.18,.12,.16,.1,.18,.12,.16,.12,.18,.1,.16,.12,.18,.1,.16,.12,.18,.1,.16,.12,.18,.1,.16,.12,.18,.1,.16,.12,.18,.1,.16,.12,.18,.1,.16,.12,.18,.1,.16,.12,.18h.08l.1-.16,.12-.18,.1-.16,.12-.16,.1-.18,.12-.16,.1-.16,.1-.18,.12-.16,.1-.16,.12-.16,.1-.18,.12-.16,.1-.16,.1-.18,.12-.16,.1-.16,.12-.18,.1-.16,.12-.16,.1-.18,.1-.16,.12-.16,.1-.18,.12-.16,.1-.16,.12-.16,.1-.18,.1-.16,.12-.16,.1-.18,.12-.16,.1-.16,.12-.18,.1-.16v8.77h3.52Zm-23.44-6.3l.06,.18,.08,.18h-3.43l.08-.18,.06-.18,.08-.2,.08-.18,.06-.18,.08-.18,.08-.2,.08-.18,.06-.18,.08-.18,.08-.18,.06-.2,.08-.18,.08-.18,.06-.18,.08-.18,.08-.2,.08-.18,.06-.18,.08-.18,.08-.2,.06-.18,.08-.18,.08,.18,.06,.18,.08,.2,.08,.18,.06,.18,.08,.18,.08,.2,.06,.18,.08,.18,.08,.18,.06,.18,.08,.2,.06,.18,.08,.18,.08,.18,.06,.18,.08,.2,.08,.18,.06,.18,.08,.18,.08,.2Zm6.24,6.3h.41l-.08-.18-.08-.18-.08-.18-.06-.2-.08-.18-.08-.18-.08-.18-.08-.18-.08-.18-.08-.2-.08-.18-.06-.18-.08-.18-.08-.18-.08-.18-.08-.2-.08-.18-.08-.18-.08-.18-.06-.18-.08-.18-.08-.2-.08-.18-.08-.18-.08-.18-.08-.18-.08-.18-.06-.2-.08-.18-.08-.18-.08-.18-.08-.18-.08-.18-.08-.2-.08-.18-.06-.18-.08-.18-.08-.18-.08-.18-.08-.2-.08-.18-.08-.18-.08-.18-.06-.18-.08-.18-.08-.18-.08-.2-.08-.18-.08-.18-.08-.18-.08-.18-.06-.18-.08-.2-.08-.18-.08-.18-.08-.18-.08-.18-.08-.18-.08-.2-.06-.18-.08-.18-.08-.18-.08-.18-.08-.18-.08-.2-.08-.18-.08-.18-.06-.18-.08-.18-.08-.18-.08-.2-.08-.18-.08-.18-.08-.18-.08-.18-.06-.18-.08-.2-.08-.18-.08-.18-.08-.18h-3.76l-.08,.18-.08,.18-.08,.18-.06,.2-.08,.18-.08,.18-.08,.18-.08,.18-.08,.18-.08,.2-.08,.18-.06,.18-.08,.18-.08,.18-.08,.18-.08,.2-.08,.18-.08,.18-.08,.18-.06,.18-.08,.18-.08,.2-.08,.18-.08,.18-.08,.18-.08,.18-.08,.18-.06,.2-.08,.18-.08,.18-.08,.18-.08,.18-.08,.18-.08,.2-.08,.18-.06,.18-.08,.18-.08,.18-.08,.18-.08,.18-.08,.2-.08,.18-.08,.18-.06,.18-.08,.18-.08,.18-.08,.2-.08,.18-.08,.18-.08,.18-.08,.18-.06,.18-.08,.2-.08,.18-.08,.18-.08,.18-.08,.18-.08,.18-.08,.2-.06,.18-.08,.18-.08,.18-.08,.18-.08,.18-.08,.2-.08,.18-.08,.18-.06,.18-.08,.18-.08,.18-.08,.2-.08,.18-.08,.18-.08,.18-.08,.18-.06,.18-.08,.2-.08,.18-.08,.18-.08,.18h4.11l.08-.18,.06-.18,.08-.18,.08-.2,.06-.18,.08-.18,.08-.18,.06-.18,.08-.18,.08-.18,.06-.18,.08-.2,.08-.18,.06-.18,.08-.18h5.83l.08,.18,.06,.18,.08,.18,.08,.2,.06,.18,.08,.18,.08,.18,.06,.18,.08,.18,.08,.18,.06,.18,.08,.2,.08,.18,.06,.18,.08,.18h3.78Zm-17.77-1.77l.16-.12,.14-.12v-6.62h-6.71v2.97h2.97v1.85l-.16,.1-.14,.08-.18,.08-.16,.08-.18,.08-.18,.04-.2,.06-.2,.04-.2,.04-.2,.02-.22,.02-.22,.02h-.47l-.22-.02-.2-.02-.2-.04-.2-.04-.2-.06-.2-.06-.18-.08-.18-.08-.18-.08-.16-.1-.16-.1-.16-.12-.16-.12-.14-.12-.12-.14-.14-.14-.12-.14-.12-.16-.1-.16-.1-.16-.1-.18-.08-.18-.08-.2-.06-.16-.06-.18-.04-.18-.04-.18-.04-.18-.02-.2-.02-.18-.02-.2v-.47l.02-.2,.02-.2,.04-.22,.04-.18,.04-.2,.06-.2,.08-.18,.06-.18,.08-.18,.1-.16,.1-.18,.1-.16,.1-.14,.12-.16,.14-.14,.12-.14,.14-.12,.14-.12,.14-.12,.16-.1,.16-.1,.16-.1,.18-.08,.18-.08,.18-.06,.18-.06,.18-.04,.2-.04,.18-.02,.2-.02h.43l.22,.02,.22,.02,.2,.02,.2,.04,.2,.04,.18,.04,.18,.06,.18,.06,.16,.06,.16,.08,.16,.08,.18,.1,.16,.1,.16,.1,.16,.1,.16,.12,.16,.1,.16,.14,.16,.12,.12-.16,.14-.14,.12-.16,.14-.16,.12-.16,.12-.14,.14-.16,.12-.16,.14-.16,.12-.14,.12-.16,.14-.16,.12-.14,.12-.16,.14-.16,.12-.16,.14-.14,.12-.16-.16-.12-.16-.14-.16-.12-.16-.12-.16-.1-.16-.12-.18-.1-.16-.1-.18-.1-.16-.1-.18-.08-.18-.1-.18-.08-.18-.08-.18-.08-.18-.06-.16-.06-.18-.04-.18-.06-.18-.04-.18-.04-.18-.04-.2-.04-.2-.04-.18-.02-.22-.04-.2-.02h-.2l-.22-.02-.22-.02h-.87l-.2,.02-.2,.02-.2,.02-.2,.02-.2,.04-.2,.02-.2,.04-.18,.06-.2,.04-.18,.06-.18,.04-.18,.08-.2,.06-.16,.06-.2,.1-.18,.08-.18,.08-.18,.1-.18,.1-.18,.1-.16,.1-.16,.1-.16,.12-.16,.1-.16,.12-.14,.12-.16,.14-.14,.12-.14,.14-.14,.14-.12,.14-.14,.14-.12,.14-.12,.16-.12,.16-.12,.16-.1,.16-.1,.16-.1,.16-.1,.16-.1,.18-.08,.18-.08,.18-.08,.18-.08,.18-.08,.2-.06,.18-.06,.2-.06,.18-.04,.2-.06,.2-.04,.18-.02,.2-.04,.2-.02,.22-.02,.2v.2l-.02,.22v.67l.02,.2,.02,.2,.02,.2,.02,.18,.04,.2,.02,.18,.04,.2,.06,.18,.04,.2,.06,.18,.04,.18,.08,.18,.06,.16,.08,.18,.08,.18,.08,.18,.08,.18,.1,.16,.1,.18,.1,.16,.1,.16,.12,.16,.1,.16,.12,.14,.12,.16,.12,.14,.14,.14,.14,.14,.14,.12,.14,.14,.14,.12,.14,.12,.16,.12,.16,.12,.16,.12,.16,.1,.16,.1,.18,.1,.16,.1,.18,.1,.18,.08,.18,.08,.18,.08,.2,.08,.18,.06,.18,.08,.18,.06,.2,.04,.18,.06,.2,.04,.18,.04,.2,.04,.2,.04,.2,.02,.2,.02,.2,.02,.22,.02,.2,.02h.87l.22-.02,.2-.02,.22-.02,.2-.02,.22-.02,.2-.02,.2-.04,.2-.04,.18-.04,.2-.04,.18-.06,.2-.06,.18-.06,.18-.06,.18-.06,.18-.08,.2-.08,.18-.08,.2-.08,.18-.1,.18-.08,.18-.1,.18-.1,.18-.1,.16-.1,.16-.1,.16-.12,.16-.1,.16-.12,.14-.1Zm38.23-25.02h-7.48V17.01h7.48v49.08Zm-18.34-27.27c0,1.96-.91,2.88-2.8,2.88h-3.08V23.6h3.08c1.89,0,2.8,.91,2.8,2.87v12.34Zm-1.61-21.8h-11.75v49.08h7.48v-17.81h4.27c6.08,0,9.09-3.01,9.09-9.11v-13.04c0-6.1-3.01-9.11-9.09-9.11Zm28.34,93.45H33.96l20.97,7.19,21.86-7.19Z"/>
-				</svg>
-				<h1>Epic Games</h1>
-				<span>Product Designer</span>
-				<p>2019 - 2021</p>
-			</div>
-			
-			<div class="half-block">
-				<h2>At Epic Games, I worked on applying live social expertise to the experiences in the world of video games.</h2>
-				<p>One of the biggest insights Epic Games had about Fortnite, and online gaming in general is that it fosters togetherness, in so far that many people use gaming not for the competitiveness of it but as a space to hang out with friends. Epic Online Services is an attempt to provide multi-context, multi-platform, crossplay experience that allows friends to connect wherever they are and whatever they're playing.</p>
-			</div>
-			
-			<div class="full-block gallery two-column">
-				<img src="assets/eos-1.jpeg" />
-				<img src="assets/eos-2.jpeg" />
-				<img src="assets/eos-3.jpeg" />
-				<img src="assets/eos-4.jpeg" />
-				<p class="annotation">Within EOS, I worked on conceptualizing a cross-platform voice and streaming platform for games. A system based on Epic Online Services SDK would allow gamers to join together, across games, to chat and watch each others game streams. The solution also included a desktop client outside a game (integrated into the Epic Games Store), and a mobile app.</p>
-			</div>			
-			
-			<div class="full-block gallery">
-				<img src="assets/eos-flow.png" />
-				<p class="annotation">I also designed and helped strategize a complete onboarding flow for new users of EOS coming into the experience via a game that implemented it's features. Although the complete tree of the flow is very complex, the vast majority of the paths taken by users are extremely simplified for minimal-friction experience, where user doesn't have to fill in long sign up forms just to get to the game experience.</p>
-			</div>
-		
-		</section>
-		
-		<!-- Houseparty -->
-		
-		<section id="houseparty">
-		
-			<div class="half-block" id="houseparty-card">
-				<svg viewBox="0 0 112 128" xmlns="http://www.w3.org/2000/svg">
-					<path d="M94.7 34.9C105.2 34.9 105.2 49 105.2 65.5C105.2 82 94.25 114.1 67.55 114.1C40.85 114.1 32.15 100.45 23.6 88.75C15.05 77.05 2.59999 57.1 14 47.2C11.15 29.65 21.5 31 21.5 31C21.5 31 21.5 21.4 29 17.5C36.5 13.6 42.95 21.4 42.95 21.4C42.95 21.4 54.8 14.8 62.75 22.6C70.7 30.4 80.6 46.45 80.6 46.45C80.6 46.45 84.2 34.9 94.7 34.9Z" fill="#FFD14D"/>
-					<path d="M96.2 87.0999C90.5 100.45 77.45 109.15 62.9 109.3C50.45 109.3 39.95 100.3 33.35 92.7999C26.3 83.7999 20.15 74.0499 15.35 63.5499C13.7 58.7499 13.55 55.7499 15.35 54.0999C17.15 52.4499 20.9 53.6499 22.85 56.1999C24.8 58.7499 37.4 75.2499 37.85 76.1499C38.3 77.0499 39.2 77.35 40.1 77.2C40.85 76.45 41 75.2499 40.25 74.4999L19.85 45.2499C18.05 42.6999 18.5 39.0999 21.05 37.2999L21.2 37.1499C23.9 35.3499 27.5 35.9499 29.45 38.4999L46.85 62.3499C47.3 63.0999 48.2 63.5499 49.1 63.0999H49.25C50 62.4999 49.85 61.2999 49.25 60.5499L29.6 30.5499C27.8 27.9999 28.25 24.3999 30.8 22.5999L30.95 22.4499C33.65 20.6499 37.25 21.2499 39.2 23.7999L60.5 54.9999C61.1 55.7499 62.15 56.3499 63.05 55.7499C63.8 55.1499 63.5 53.9499 63.05 53.0499C60.35 48.5499 51.05 32.6499 49.55 29.9499C48.05 27.2499 47.6 24.2499 49.55 23.0499C51.5 21.8499 55.55 22.4499 60.95 27.8499C67.4 35.7999 73.25 44.1999 78.2 53.1999C78.65 53.9499 79.1 54.5499 79.7 55.1499C81.8 57.0999 83.15 56.7999 84.05 54.8499C84.95 52.8999 86.15 39.5499 93.8 39.8499C96.5 39.8499 98.6 42.5499 99.65 49.5999C101.9 62.1999 100.7 75.2499 96.2 87.0999ZM109.7 48.0999C108.35 36.2499 102.8 30.0999 94.4 29.7999C88.55 29.4999 83.15 32.1999 80 36.9999C76.55 31.2999 72.65 26.0499 68.45 21.0999C57.65 9.39995 48.95 11.0499 44.15 14.3499C38.6 10.2999 31.1 10.1499 25.4 14.0499C20.9 17.0499 18.2 22.1499 18.35 27.5499C13.4 29.6499 9.79999 33.9999 8.89999 39.3999C8.44999 41.6499 8.44999 43.8999 8.89999 46.1499L7.99999 46.8999C3.19999 51.6999 2.14999 58.4499 5.44999 67.4499C10.85 78.8499 17.45 89.6499 25.4 99.5499C37.1 112.75 49.85 119.5 62.75 119.5C81.5 119.5 98.45 108.25 105.65 90.8499C110.9 77.1999 112.4 62.1999 109.7 47.7999V48.0999Z" fill="black"/>
-					<path d="M85.4 84.8501C82.4 78.7001 80.75 72.1001 80.6 65.3501C80.6 64.0001 79.4 62.8 78.05 62.8C76.7 62.8 75.5 64.0001 75.5 65.3501C75.8 73.0001 77.6 80.5 80.9 87.4C81.65 88.6 83.15 89.0501 84.35 88.4501C85.55 87.7001 86 86.2001 85.4 84.8501ZM69.8 64C70.55 65.2 70.4 66.7 69.2 67.45C63.2 72.25 58.25 78.1001 54.65 84.8501C54.05 86.0501 52.4 86.65 51.2 85.9C50 85.3 49.4 83.6501 50.15 82.4501C50.15 82.3001 50.3 82.3 50.3 82.15C54.35 74.8 59.75 68.35 66.35 63.25C67.55 62.5 69.05 62.8 69.8 64Z" fill="#FFB73B"/>
-					<path d="M30.35 122.65C19.55 116.5 11 107.05 6.04999 95.6499C5.74999 94.2999 4.39999 93.3999 2.89999 93.6999C1.54999 93.9999 0.649989 95.3499 0.949989 96.8499V96.9999C0.949989 97.1499 1.09999 97.2999 1.09999 97.4499C6.49999 110.2 16.1 120.7 28.1 127.45C29.3 128.2 30.95 127.6 31.55 126.4C32.3 125.2 31.7 123.55 30.5 122.95L30.35 122.65ZM89.3 21.0999C87.95 21.6999 86.45 21.0999 85.85 19.8999C81.95 13.5999 76.1 8.49992 69.2 5.64992C67.85 5.19992 67.1 3.69992 67.55 2.34992C68 0.999917 69.5 0.249917 70.85 0.699917H71C79.1 4.14992 86 9.99992 90.5 17.6499C91.25 18.8499 90.65 20.3499 89.3 21.0999Z" fill="#7A011F"/>
-				</svg>
-				<h1>Houseparty</h1>
-				<span>Lead Designer</span>
-				<p>2017 - 2019</p>
-			</div>
-			
-			<div class="half-block">
-				<h2>Houseparty was a group video chat app focused on online presence. The goal of the app was to bring friends together in a serendipitous way.</h2>
-				<p>Working as a lead designer, I ideated on the concept of live video chat app since its inception. The work was characterized by its breadth, as I designed the experience of the app, it's UI, iconography, animations, flows, but also brand identity, marketing materials, and everything else that involved visual work.</p>
-			</div>
-			
-			<div class="full-block horizontal">
-				<video muted autoplay loop playsinline src="assets/houseparty-1.mp4"></video>
-				<p class="sidenote">Always on, spontaneously created rooms, updating notifications, open to friends of friends — these design principles primarily removed friction to get together to a bare minimum and fostered an environment where you could be in touch with your friends, catch up with old colleagues and form new relationships.<br><br>From presence notification to chatting together with the absolute minimal friction. The simplicity of Hosueparty's experience took years of experimentation to fully harness and use the presence metadata, phone notifications, automatic joining, ephemeral open-by-default chat rooms, and ever-updating activity list to create the viral togetherness loops inside Houseparty.</p>
-			</div>
-			
-			<div class="half-block lottie" id="wave"></div>
-			<div class="half-block lottie" id="icons"></div>
-			
-			<div class="full-block horizontal videos">
-				<div class="annotated-video">
-					<video muted controls playsinline src="assets/houseparty-swipe.mp4" poster="assets/houseparty-swipe.jpg"></video>
-					<div class="video-annotation">
-						<h3>Swiping Between the Rooms</h3>
-						<p>One of the signature features of Houseparty was an ability to quickly jump between the rooms via horizontal swipes. The side effect was that users were often accidentally leaving the conversations. My solution was to introduce a two-step flow, where after the swipe you first see a visualization of the current Activity (all available rooms).</p>
-					</div>
-				</div>
-				<div class="annotated-video">
-					<video muted controls playsinline src="assets/houseparty-zoom.mp4" poster="assets/houseparty-zoom.jpg"></video>
-					<div class="video-annotation">
-						<h3>Zooming Video Cells</h3>
-						<p>An intuitive and quick way to focus your view on a person that matters the most to you. Found it to be a very useful feature in the usecases where one of the conversation participants is sharing something with the rest of the group.</p>
-					</div>
-				</div>
-				<div class="annotated-video">
-					<video muted controls playsinline src="assets/houseparty-facemail.mp4" poster="assets/houseparty-facemail.jpg"></video>
-					<div class="video-annotation">
-						<h3>Facemail</h3>
-						<p>Houseparty was designed as a syntcronyous social platform, meaning, the only content to consume is live, right now. Throughout the lifetime of the app we experimented with ways to include a-syntcronyous content that feels native to the platform. Facemail was one of such features, allowing users to record their current room and send to someone else.</p>
-					</div>
-				</div>
-			</div>
-		
-		</section>
-		
-		<!-- Slug -->
-		
-		<section id="slug">
-		
-			<div class="half-block" id="slug-card">
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 315.98 315.98">
-					<circle fill="white" cx="157.99" cy="157.99" r="157.99"/>
-					<path fill="black" d="M261.1,103.97c-2.04,.02-3.73,1.41-4.34,3.3-2.6-.03-5.25,.12-7.91,.58-4.06,.71-8.07,2.19-11.55,3.91l-5.1,2.46c-.81,.38-1.71,.8-2.43,1.11-.66,.3-1.32,.49-1.95,.66-2.55,.6-4.54-.02-6.2-1.73-1.63-1.69-2.68-4.59-2.21-6.66,.73-3.76,1.49-7.79,1.82-11.92,.64-6.48-.05-13.29-2.1-19.54,.99-.89,1.62-2.19,1.61-3.65-.02-2.65-2.11-4.77-4.66-4.75-2.5,.02-4.5,2.09-4.57,4.66v.02c0,.05-.02,.1-.02,.15,0,.14,.03,.27,.04,.4,0,.02,0,.04,0,.07,.06,.62,.24,1.2,.51,1.73,2.07,6.46,2.46,13.23,1.47,20-.25,1.85-.61,3.68-1.01,5.55-.73,2.89-2.91,5.13-5.08,3.83l.05,.05c-.59-.36-1.18-.72-1.8-1.09-12.48-7.36-29.28-11.94-50.48-12.43-42.99-.99-68.88,19.36-81.37,43.62-6.01,13.96-7.47,38.24,12.16,44.11,1.61,.48,3,.92,4.22,1.32,3.98,1.13,7.99,2.13,12.05,2.94,19.1,3.91,38.89,3.9,58.1,.25h0c.63-.12,2.08,.42,2.31,1.52,.23,1.12-.78,2.38-1.4,2.51-9.7,2.07-19.6,3.29-29.53,3.42-9.93,.12-19.88-.76-29.65-2.64-5.71-1.11-11.34-2.58-16.91-4.3-.95-.22-1.84-.44-2.61-.68-8.03-2.42-18.22,4.53-6.63,23.87,13.71,20.11,39.37,34.87,73.97,35.67,43.75,1.01,72.83-24.17,81.5-48.85,6.55-22.54,2.2-26.91-10.93-31.34-3.66-1.01-7.34-1.94-11.06-2.68-19.08-3.93-38.86-3.96-58.08-.36h0c-.63,.12-1.74-.49-1.87-1.56-.13-1,.75-2.05,1.36-2.19,9.7-2.1,19.59-3.35,29.53-3.5,9.12-.13,18.25,.64,27.26,2.2v-.03c6.23,.89,8.49,1.68,14.89,.34,3.79-.79,9.01-5.27,10.45-9.26,2.1-5.83,.87-10.25-1.56-15.19-.89-2.85,1.17-5.91,3.26-7.31,.41-.22,.8-.43,1.22-.65l4.96-2.74c3.22-1.76,6.22-3.19,9.51-4.07,3.29-.84,6.79-1.31,10.4-1.51h.02c.19-.01,.37-.04,.54-.08,2.5-.08,4.49-2.21,4.47-4.82-.02-2.65-2.11-4.77-4.66-4.75Zm-151.51,18.77c-13.2,4.04-24.6,19.21-20,36.66,.28,1.07-.36,2.16-1.42,2.44-.17,.04-.34,.07-.51,.07-.89,0-1.7-.59-1.93-1.49-4.05-15.38,3.47-35.61,22.7-41.5,1.06-.32,2.17,.27,2.5,1.33,.32,1.06-.27,2.17-1.33,2.5Zm3.87,98.42c-.36,.68-1.05,1.07-1.77,1.07-.31,0-.63-.07-.93-.23-8.94-4.71-19.9-13.74-24.23-23.32-.46-1.01,0-2.19,1-2.65,1.01-.46,2.19,0,2.65,1,3.91,8.67,14.38,17.18,22.45,21.43,.98,.51,1.35,1.72,.84,2.7Zm9.45-16.61v-1h3.54v1h-3.54Zm77.5-36.32c8.84-.56,16.2,1.74,20.19,6.32,2.8,3.21,3.78,7.36,2.83,11.98-.19,.95-1.03,1.6-1.96,1.6-.13,0-.27-.01-.4-.04-1.08-.22-1.78-1.28-1.56-2.36,.7-3.4,.05-6.28-1.93-8.55-3.12-3.58-9.45-5.44-16.92-4.96-1.11,.08-2.05-.77-2.12-1.87s.77-2.05,1.87-2.12Zm-35.05,7.93c.24-1.08,1.32-1.75,2.39-1.51,4.17,.93,7.03,4.41,7.3,8.86,.29,4.77-2.37,8.98-6.6,10.49-.22,.08-.45,.12-.67,.12-.82,0-1.59-.51-1.88-1.33-.37-1.04,.17-2.18,1.21-2.55,2.94-1.04,4.1-4,3.95-6.48-.06-1.01-.54-4.38-4.18-5.19-1.08-.24-1.76-1.31-1.51-2.39Zm-18.58-9.94c-.23,.91-1.04,1.52-1.94,1.52-.16,0-.32-.02-.48-.06-4.37-1.08-7.42-5.02-7.59-9.79-.17-4.45,2.35-8.19,6.4-9.52,1.05-.35,2.18,.23,2.53,1.27,.35,1.05-.22,2.18-1.27,2.53-3.54,1.17-3.69,4.56-3.65,5.58,.09,2.47,1.54,5.31,4.56,6.06,1.07,.27,1.72,1.35,1.46,2.42Zm68.82-21.85s-.09,0-.14,0c-7.61-.53-18.97-10.44-18.62-21.66,.04-1.1,.92-2,2.06-1.94,1.1,.03,1.97,.96,1.94,2.06-.27,8.77,9.09,17.14,14.9,17.54,1.1,.08,1.93,1.03,1.86,2.13-.07,1.05-.95,1.86-1.99,1.86Z"/>
-				</svg>
-				<h1>Slug Bicycles</h1>
-				<span>Resident Illustrator</span>
-				<p>2020 - now</p>
-			</div>
-			
-			<div class="half-block">
-				<h2>Slug Bicycles designs titanium gravel and mountain bike frames, while focusing on community building and increasing access to bicycles.</h2>
-				<p>Slug Bicycles is a side project that I'm truly proud of to be a part of. Outside of scratching the itch of partaking in a venture so close to my heart, our core principles revolve around community building (through organizing inclusive and fun cycling events here in the Bay Area), as well as working with non profits such as Outride to fundraise towards diversity, equity, and inclusion in the cycling industry. For me, it has been a great venue to exercise my branding and illustration work.</p>
-			</div>
-			
-			<div class="full-block gallery three-column">
-				<img src="assets/slug-merch-1.jpeg" />
-				<img src="assets/slug-merch-2.jpeg" />
-				<img src="assets/slug-merch-3.jpeg" />
-			</div>
-			
-			<div class="full-block gallery four-column">
-				<img src="assets/slug-1.jpeg" />
-				<img src="assets/slug-2.jpeg" />
-				<img src="assets/slug-3.jpeg" />
-				<img src="assets/slug-4.jpeg" />
-			</div>
-		
-		</section>
-		
+		<p>Hey! I'm a Product Designer at <a href="https://figma.com">Figma</a>.</p>
+		<p>I co-manage a small bicycle company called <a href="https://slugbicycles.com">Slug Bicycles</a>.</p>
+		<p>Previously I worked at <a href="https://epicgames.com">Epic Games</a>, <a href="https://en.wikipedia.org/wiki/Houseparty_(app)">Houseparty</a>, and <a href="https://en.wikipedia.org/wiki/Meerkat_(app)">Meerkat</a>.</p>
+		<p>I like riding bikes and taking photos.</p>
+		<p><a href="https://read.cv/swiadek">See my CV.</a></p>
 	</body>
-	
-	<script type="text/javascript" src="./script.js"></script>
 	
 </html>
